@@ -1,0 +1,102 @@
+body {
+    background-color: #2b2b2b;
+}
+header {
+    background-color: #2b2b2b;
+    padding: 0%;
+    height: 100px;
+    width: 100%;
+}
+.name {
+    color: #ffffff;
+    display: block;
+    font-family: Tahoma;
+    margin-left: 25px;
+}
+nav {
+    float: right;
+    padding-left: 0%;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;}
+.links {
+    color: #2b2b2b;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+main {
+    background-color: #ffffff;
+    background-size: cover;
+}
+.reviews-title {
+    color: red;
+    text-align: center;
+}
+.heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 200px;
+}
+#name {
+    height: 20px;
+    width:90%;
+    border-radius: 4px;
+}
+button[type=submit] {
+    width: 20%;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type=submit]:hover {
+    background-color: #8b0000;
+}
+input[type=button] {
+    width: 72.5%;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background-color: #8b0000;
+}
+form {
+    margin-left: 50px;
+}
+footer {
+    height: 80px;
+    background-color: #2b2b2b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+footer p {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-family: Tahoma;
+}
+form {
+    margin-left: 50px;
+}

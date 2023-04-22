@@ -1,0 +1,56 @@
+body {
+    background-image: url('../img/home-background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2b2b2b;
+}
+main {
+    size: 90%;
+}
+.name {
+    color: white;
+    display: block;
+    font-family: Tahoma;
+    text-align: left;
+    margin-left: 25px;
+}
+nav {
+    float: right;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+.links {
+    color: white;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.links:hover {
+    color:#2b2b2b;
+}
+.welcome-title {
+    text-align: center;
+    color: #ffffff;
+    font-family: Tahoma;
+    margin-top: 100px;
+}
+.civil-title {
+    text-align: center;
+    color: #ffffff;
+    font-family: Tahoma;
+}
+footer {
+    height: 80px;
+    background-color: #2b2b2b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+footer p {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-family: Tahoma;
+}

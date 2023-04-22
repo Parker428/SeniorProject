@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reviews List</title>
+<link rel="stylesheet" type="text/css" href="../static/css/reviewlist.css">
+</head>
+
+<body>
+<header>
+<h1 class="name">Decelles Engineering Solutions</h1>
+</header>
+
+<main>
+<nav>
+    <li><a class="links" href='../'>Home</a></li>
+    <li><a class="links" href='../services/'>Services</a></li>
+    <li><a class="links" href='../about/'>About</a></li>
+    <li><a class='links' href='../contact/'>Contact</a></li>
+    <li><a class='links' href='../reviews/'>Reviews</a></li>
+</nav>
+
+<h1 class="reviews-title">List of Reviews</h1>
+
+<br>
+<br>
+
+<ul>
+    {% for CompanyReview in message %}
+    <li class="list">{{CompanyReview.name}}</li>
+    <li class="list">{{CompanyReview.message}}</li>
+    <br>
+    <br>
+    {% endfor %}
+</ul>
+
+</main>
+
+</body>
+
+<footer>
+<p>Copyright &copy; Decelles Engineering Solutions.  -All rights reserved.</p>
+</footer>
+</html>

@@ -1,0 +1,57 @@
+body {
+    background-color: #2b2b2b;
+}
+header {
+    background-color: #2b2b2b;
+    padding: 0%;
+    height: 100px;
+    width: 100%;
+}
+.name {
+    color: white;
+    display: block;
+    font-family: Tahoma;
+    margin-left: 25px;
+}
+nav {
+    float: right;
+    padding-left: 0%;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;}
+.links {
+    color: #2b2b2b;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+main {
+    background-color: #ffffff;
+    size: 90%;
+    width: 100%;
+    background-size: cover;
+}
+.paragraph {
+    margin-left: 50px;
+}
+.about-title {
+    color: red;
+    text-align: center;
+}
+footer {
+    height: 80px;
+    background-color: #2b2b2b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+footer p {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-family: Tahoma;
+}
